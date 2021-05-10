@@ -298,3 +298,14 @@
     font-weight: bold;
     font-family: Raleway;
 }
+.contact__links__container > a{
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    height: 10px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: Raleway;
+}

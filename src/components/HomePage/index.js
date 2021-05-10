@@ -112,6 +112,7 @@ const HomePage = () => {
                         <h5>Contact Info</h5>
                         <p>brandonforster@live.com</p>
                         <p>208-559-6384</p>
+                        <a href="https://docs.google.com/document/d/1eu6jVyC8BmLHGzPz0sEX239xjqRoc-SikV8xfyJka28/edit?usp=sharing">Link to resume</a>
                     </div>
             </div>
         </div>
