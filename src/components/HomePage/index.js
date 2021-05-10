@@ -17,9 +17,32 @@ const HomePage = () => {
                     <p>Hello, I am a junior level software engineer based in Boise, Idaho looking to find a job in the big software development hubs of the country! I have a background working with front-end applications using JavaScript, React, and Redux, as well as experience developing backend APIs using Express, Flask, SQLALchemy, and PostgreSQL.</p>
                     <div className="links__container">
                         <h5>Profile links</h5>
-                        <i class="fab fa-github fa-6x"></i>
-                        <i class="fab fa-linkedin fa-6x"></i>
-                        <i class="fab fa-angellist fa-6x"></i>
+                        <a
+                        href="https://github.com/brandonforster822"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="github__link"
+                        >
+                            <i class="fab fa-github fa-6x"></i>
+                        </a>
+                        <a
+                        href="https://www.linkedin.com/in/brandon-forster-759553208/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="github__link"
+                        >
+                            <i class="fab fa-linkedin fa-6x"></i>
+                        </a>
+                        <a
+                        href="https://angel.co/u/brandon-forster-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="github__link"
+                        >
+                            <i class="fab fa-angellist fa-6x"></i>
+                        </a>
+                        
+                        
                     </div>
             </div>
             <div className="skills__container">
@@ -46,8 +69,8 @@ const HomePage = () => {
                     <div className="project project-one">
                         <div className="overlay">
                             <p>Medium well is a clone site of medium using express.</p>
-                            <button>Github</button>
-                            <button>Live Site</button>
+                            <button onClick={()=> window.open("https://github.com/cygnus33065/Medium_Well")}>Github</button>
+                            <button onClick={()=> window.open("https://medium-well.herokuapp.com/")}>Live Site</button>
                         </div>
                         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/11368/cow-cattle-animal-clipart-md.png"/>
                         <h5>Medium Well</h5>
@@ -55,8 +78,8 @@ const HomePage = () => {
                     <div className="project project-two">
                         <div className="overlay">
                             <p>Picketsy is a clone site of etsy using React and express.</p>
-                            <button>Github</button>
-                            <button>Live Site</button>
+                            <button onClick={()=> window.open("https://github.com/brandonforster822/picketsy")}>Github</button>
+                            <button onClick={()=> window.open("https://picketsy.herokuapp.com")}>Live Site</button>
                         </div>
                         <img src="https://www.jing.fm/clipimg/full/54-540160_image-picket-fence-png-picket-fence.png"/>
                         <h5>Picketsy</h5>
@@ -64,8 +87,8 @@ const HomePage = () => {
                     <div className="project project-three">
                         <div className="overlay">
                             <p>SkyBnB is a clone site of AirBnB using React and Flask.</p>
-                            <button>Github</button>
-                            <button>Live Site</button>
+                            <button onClick={()=> window.open("https://github.com/V3RS/skybnb")}>Github</button>
+                            <button onClick={()=> window.open("https://skybnb-app.herokuapp.com")}>Live Site</button>
                         </div>
                         <img src="https://skybnb.s3.amazonaws.com/logo.png"/>
                         <h5>SkyBnB</h5>
@@ -73,8 +96,8 @@ const HomePage = () => {
                     <div className="project project-four">
                         <div className="overlay">
                             <p>A site designed for running a dungeons and dragons game created using React and Flask.</p>
-                            <button>Github</button>
-                            <button>Live Site</button>
+                            <button onClick={()=> window.open("https://github.com/brandonforster822/dnd-instruments")}>Github</button>
+                            <button onClick={()=> window.open("http://dndinstruments.herokuapp.com/")}>Live Site</button>
                         </div>
                         <img src="https://i.pinimg.com/originals/48/cb/53/48cb5349f515f6e59edc2a4de294f439.png"/>
                         <h5>DnD Instruments</h5>
