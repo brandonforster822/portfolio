@@ -33,7 +33,7 @@
 .about__container{
     background-color: #92AFD7;
     margin: 0;
-    height: 500px;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20% 80%;
@@ -52,7 +52,7 @@
     grid-column-end: 3;
 }
 
-.about__container > p{
+.about__container p{
     font-size: 25px;
     padding-left: 25%;
     padding-right: 25%;
@@ -61,6 +61,16 @@
     border-right: 1px solid black;
 }
 
+.about__container button{
+    border: none;
+    outline: none;
+    background-color: #92AFD7;
+    font-size: 25px;
+    font-family: Raleway;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
 
 
 .links__container > h5{
@@ -243,9 +253,9 @@
 .contact__container{
     background-color: #564787;
     margin: 0;
-    height: 500px;
+    height: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 20% 80%;
     justify-items: center;
     overflow: hidden;
@@ -285,7 +295,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 400px;
+    margin-top: 100px;
 }
 .contact__links__container > p{
     margin-right: 40px;

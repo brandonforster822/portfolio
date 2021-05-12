@@ -2,6 +2,12 @@ import React from 'react'
 import './HomePage.css'
 
 const HomePage = () => {
+    const scrollToBottom = () =>{ 
+        window.scrollTo({ 
+          top: document.documentElement.scrollHeight, 
+          behavior: 'smooth'
+        }); 
+      }; 
     return(
         <div className="site__container">
             <div className="header__container">
@@ -14,7 +20,10 @@ const HomePage = () => {
             </div>
             <div className="about__container">
                     <h3>About me</h3>
-                    <p>Hello, I am a junior level software engineer based in Boise, Idaho looking to find a job in the big software development hubs of the country! I have a background working with front-end applications using JavaScript, React, and Redux, as well as experience developing backend APIs using Express, Flask, SQLALchemy, and PostgreSQL.</p>
+                    <div>
+                        <p>Hello! I am a junior-level software engineer based in Boise, Idaho. I'm currently pursuing new and exciting opportunities, especially in the big software development hubs of the US! I have a background working with front-end applications, using: JavaScript, React, and Redux, as well as experience developing backend APIs, using: Express, Flask, SQLALchemy, and PostgreSQL. Interested in collab-ing? </p>
+                        <button onClick={scrollToBottom}>Let's Connect!</button>
+                    </div>
                     <div className="links__container">
                         <h5>Profile links</h5>
                         <a
@@ -106,10 +115,9 @@ const HomePage = () => {
 
             </div>
             <div className="contact__container">
-            <h3>Contact</h3>
-                    <p>I'm currently looking for job opportunities anywhere in the country, so feel free to contact me for anything!</p>
+            <h3>Contact Info</h3>
                     <div className="contact__links__container">
-                        <h5>Contact Info</h5>
+
                         <p>brandonforster@live.com</p>
                         <p>208-559-6384</p>
                         <a href="https://docs.google.com/document/d/1eu6jVyC8BmLHGzPz0sEX239xjqRoc-SikV8xfyJka28/edit?usp=sharing">Link to resume</a>
