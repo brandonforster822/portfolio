@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 .site__container{
     
 }
@@ -8,18 +10,101 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(https://s1.1zoom.me/big3/189/Scenery_Rivers_Sunrises_439125.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #564787;
     height: 100vh;
+    width: 100vw;
 }
 
-.header__container > img{
+.header__image__container{
+    background-color: white;
+    height: 75%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header__image__container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 50%;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+
+
+
+
+.header__image__container__1{
+    position: relative;
+}
+
+.header__text__container__1{
+    background-color: white;
     height: 50%;
-    object-fit:fill;
-    border-radius: 50%;
+    width: 30%;
+    opacity: 100%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border-radius: 15px;
+    opacity: 0%;
+    transition: .5s;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: grid;
+    padding: 10px;
+}
+
+.header__text__container__1>a{
+    border: 1px solid lightgray;
+    outline: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+    color: black;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.header__text__container__1>a:hover{
+    border: 1px solid black;
+    background-color: white;
+    transition: .2s;
+}
+
+.header__image__container__1:hover .header__text__container__1{
+    opacity: 100%;
+    transition: .5s;
+    
+}
+
+.header__image__container__1:hover >img{
+    opacity: 100%;
+    transition: .5s;
+}
+
+.header__text__container{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: white;
+    height: 10%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 47%;
+    padding-top: 15px;
+    font-weight: bold;
+    display: grid;
 }
 
 .headertext__container{

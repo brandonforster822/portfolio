@@ -1,5 +1,8 @@
 import React from 'react'
 import './HomePage.css'
+import dndInstrumentsDemo from '../../images/dndInstrumentsDemo.gif'
+import skyBnBDemo from '../../images/skyBnBDemo.gif'
+import mediumWellDemo from '../../images/mediumWellDemo.gif'
 
 const HomePage = () => {
     const scrollToBottom = () =>{ 
@@ -11,11 +14,30 @@ const HomePage = () => {
     return(
         <div className="site__container">
             <div className="header__container">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQHJ25Q4aWficg/profile-displayphoto-shrink_800_800/0/1614665332731?e=1626307200&v=beta&t=C6SwAAsyQYu87Ih36qnsC3oDCVE0dk623CxxnS-IxeE"/>
-                <div className="headertext__container">
-                    <h1>Hello</h1>
-                    <h2>I'm Brandon Forster</h2>
-                    <h3>A Fullstack Software Engineer</h3>
+                <div className='header__text__container'>
+                    <h1>Brandon Forster</h1>
+                    <h2>Full Stack Software Engineer</h2>
+                </div>
+                <div className='header__image__container'>
+                    <div className='header__image__container__1'>
+                        <img id='dndInstrumentsDemo' src={dndInstrumentsDemo}/>
+                        <div className='header__text__container__1'>
+                            <h3>DnD Instruments</h3>
+                            <h4>A Dungeons and Dragons calculator.</h4>
+                            <a href='https://github.com/brandonforster822/DnD-Instruments'>Github</a>
+                            <a href='https://dndinstruments.herokuapp.com'>Live Site</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img id='skyBnBDemo' src={skyBnBDemo}/>
+                        <p>huaggh???</p>
+                    </div>
+                    <div>
+                        <img id='mediumWellDemo' src={mediumWellDemo}/>
+                    </div>
+                    <div>
+                        <img id='dndInstrumentsDemo' src={dndInstrumentsDemo}/>
+                    </div>
                 </div>
             </div>
             <div className="about__container">
