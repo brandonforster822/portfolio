@@ -14,9 +14,37 @@ const HomePage = () => {
     return(
         <div className="site__container">
             <div className="header__container">
-                <div className='header__text__container'>
-                    <h1>Brandon Forster</h1>
-                    <h2>Full Stack Software Engineer</h2>
+                <div className="header__text__positioning">
+                    <div className='header__text__container'>
+                        <h1>Brandon Forster</h1>
+                        <h2>Full Stack Software Engineer</h2>
+                        <div className='header__contact__container'>
+                        <a
+                            href="https://github.com/brandonforster822"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            id="github__link"
+                            >
+                                <i class="fab fa-github fa-6x"></i>
+                            </a>
+                            <a
+                            href="https://www.linkedin.com/in/brandon-forster-759553208/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            id="github__link"
+                            >
+                                <i class="fab fa-linkedin fa-6x"></i>
+                            </a>
+                            <a
+                            href="https://angel.co/u/brandon-forster-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            id="github__link"
+                            >
+                                <i class="fab fa-angellist fa-6x"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className='header__image__container'>
                     <div className='header__image__container__1'>
@@ -24,8 +52,8 @@ const HomePage = () => {
                         <div className='header__text__container__1'>
                             <h3>DnD Instruments</h3>
                             <h4>A Dungeons and Dragons calculator.</h4>
-                            <a href='https://github.com/brandonforster822/DnD-Instruments'>Github</a>
-                            <a href='https://dndinstruments.herokuapp.com'>Live Site</a>
+                            <a href='https://github.com/brandonforster822/DnD-Instruments'><i class="fab fa-github fa-4x"></i></a>
+                            <a href='https://dndinstruments.herokuapp.com'><i class="fas fa-link fa-4x"></i></a>
                         </div>
                     </div>
                     <div>

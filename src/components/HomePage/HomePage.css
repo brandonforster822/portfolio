@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
 .site__container{
     
 }
@@ -24,6 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: -30px;
 }
 
 .header__image__container img{
@@ -36,7 +37,14 @@
 }
 
 
-
+.header__text__positioning{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
 
 
 .header__image__container__1{
@@ -52,7 +60,7 @@
     top: 25%;
     left: 35%;
     border-radius: 15px;
-    opacity: 0%;
+    opacity: 100%;
     transition: .5s;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -92,27 +100,60 @@
 }
 
 .header__text__container{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
     text-align: center;
     background-color: white;
-    height: 10%;
-    width: 20%;
+    height: 125px;
+    width: 500px;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 235px;
     position: absolute;
     z-index: 1;
     top: 47%;
     padding-top: 15px;
     font-weight: bold;
     display: grid;
+    text-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 1px 5px 5px;
 }
 
-.headertext__container{
+.header__text__container:hover > h1{
+    opacity: 0%;
+    transition: .3s;
+}
+
+.header__text__container > h1{
+    transition: .5s;
+}
+
+.header__text__container:hover > h2{
+    opacity: 0%;
+    transition: .3s;
+}
+
+.header__text__container > h2{
+    transition: .5s;
+}
+
+.header__contact__container{
     position: absolute;
-    color: white;
-    font-family: Raleway;
-    text-align: center;
-    text-shadow: 10px 10px 10px black;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0%;
+    transition: .3s;
+}
+
+.header__contact__container > a{
+    color: black;
+}
+
+.header__text__container:hover .header__contact__container{
+    opacity: 100%;
+    transition: .5s;
 }
 
 .about__container{
