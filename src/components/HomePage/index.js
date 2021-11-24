@@ -17,7 +17,7 @@ const HomePage = () => {
                 <div className="header__text__positioning">
                     <div className='header__text__container'>
                         <h1>Brandon Forster</h1>
-                        <h2>Full Stack Software Engineer</h2>
+                        <h2>Stack Software Engineer</h2>
                         <div className='header__contact__container'>
                         <a
                             href="https://github.com/brandonforster822"
