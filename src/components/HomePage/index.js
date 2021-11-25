@@ -117,7 +117,7 @@ const HomePage = () => {
                     <img src={profilePicture}/>
                     <div className='about__text__container'>
                         <h3>Hello! I am a junior-level software engineer based in Boise, Idaho.</h3>
-                        <p>I'm currently pursuing new and exciting opportunities, especially in the big software development hubs of the US! I have a background working with front-end applications, using: JavaScript, React, and Redux, as well as experience developing backend APIs, using: Express, Flask, SQLALchemy, and PostgreSQL. Interested in collab-ing? Feel free to reach out!</p>
+                        <p>I'm currently pursuing new and exciting opportunities, especially in the big software development hubs of the US! I have a background working with front-end applications, using: JavaScript, React, TypeScript, and Redux, as well as experience developing backend APIs, using: Express, Flask, GraphQL, SQLALchemy, and PostgreSQL. Interested in collab-ing? Feel free to reach out! You can find all my contact and project links above.</p>
                     </div>
                 </div>
                 <div className='skills__container'>
@@ -131,10 +131,12 @@ const HomePage = () => {
                         <i class="devicon-flask-original-wordmark"></i>
                         <i class="devicon-postgresql-plain-wordmark"></i>
                         <i class="devicon-sqlalchemy-original-wordmark"></i>
+                        <i class="devicon-graphql-plain-wordmark"></i>
                         <i class="devicon-nodejs-plain-wordmark"></i>
                         <i class="devicon-express-original-wordmark"></i>
                         <i class="devicon-javascript-plain"></i>
                         <i class="devicon-python-plain"></i>
+                        <i class="devicon-typescript-plain"></i>
                     </div>
                 </div>
             </div>
