@@ -116,7 +116,7 @@ const HomePage = () => {
                 <div className="about__container">
                     <img src={profilePicture}/>
                     <div className='about__text__container'>
-                        <h3>Hello! I am a junior-level software engineer based in Boise, Idaho.</h3>
+                        <h3>Hello! I am a junior-level software engineer based in Twin Falls, Idaho.</h3>
                         <p>I'm currently pursuing new and exciting opportunities, especially in the big software development hubs of the US! I have a background working with front-end applications, using: JavaScript, React, TypeScript, and Redux, as well as experience developing backend APIs, using: Express, Flask, GraphQL, SQLALchemy, and PostgreSQL. Interested in collab-ing? Feel free to reach out! You can find all my contact and project links above.</p>
                     </div>
                 </div>
